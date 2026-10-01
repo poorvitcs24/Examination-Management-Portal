@@ -1,0 +1,23 @@
+{% extends 'base.html' %}{% block title %}Home{% endblock %}
+{% block content %}
+<section class="hero p-4 p-md-5 mb-4">
+  <div class="row align-items-center g-4">
+    <div class="col-lg-7">
+      <span class="eyebrow">EXAMINATION MANAGEMENT PORTAL</span>
+      <h1 class="display-5 fw-bold mt-2">One place to plan, book and evaluate examinations.</h1>
+      <p class="lead text-secondary">A role-based local web application for administrators, examiners and students with programmatically managed SQLite storage.</p>
+      <div class="d-flex flex-wrap gap-2 mt-4">
+        <a class="btn btn-primary btn-lg" href="{{ url_for('login') }}">Login</a>
+        <a class="btn btn-outline-primary btn-lg" href="{{ url_for('register', role='student') }}">Student Registration</a>
+        <a class="btn btn-outline-secondary btn-lg" href="{{ url_for('register', role='examiner') }}">Examiner Registration</a>
+      </div>
+    </div>
+    <div class="col-lg-5"><div class="hero-card"><div class="metric">3</div><div class="fw-semibold">Role-based dashboards</div><hr><div class="metric">SQLite</div><div class="fw-semibold">Database created by Python</div><hr><div class="metric">0 JS</div><div class="fw-semibold">Core workflows are server-rendered</div></div></div>
+  </div>
+</section>
+<div class="row g-3">
+  <div class="col-md-4"><div class="card feature-card h-100"><div class="card-body"><h5>Admin</h5><p>Courses, exams, rubrics, approvals, timelines, slots, bookings and exception handling.</p></div></div></div>
+  <div class="col-md-4"><div class="card feature-card h-100"><div class="card-body"><h5>Examiner</h5><p>Create slots during the allowed window, view booked students and submit rubric-based evaluations.</p></div></div></div>
+  <div class="col-md-4"><div class="card feature-card h-100"><div class="card-body"><h5>Student</h5><p>Search examinations, book or cancel slots, view history and access published feedback.</p></div></div></div>
+</div>
+{% endblock %}

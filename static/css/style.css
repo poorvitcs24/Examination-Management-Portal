@@ -1,0 +1,10 @@
+:root{--emp:#243b7a;--emp2:#536dfe;--ink:#172033;--soft:#f4f7fb}
+body{background:var(--soft);color:var(--ink)}
+.emp-nav{background:linear-gradient(110deg,var(--emp),#162653);box-shadow:0 4px 18px rgba(22,38,83,.18)}
+.emp-nav .nav-link{color:rgba(255,255,255,.82);font-size:.9rem}.emp-nav .nav-link:hover{color:#fff}.brand-dot{color:#8ea2ff}.user-pill{font-size:.78rem;color:#fff;background:rgba(255,255,255,.12);border-radius:999px;padding:.35rem .65rem}
+.hero{background:#fff;border:1px solid #e2e8f0;border-radius:22px;box-shadow:0 14px 35px rgba(31,52,92,.07)}
+.eyebrow{font-size:.76rem;letter-spacing:.14em;color:var(--emp2);font-weight:800}.hero-card{background:#f1f4ff;border:1px solid #dce3ff;border-radius:18px;padding:24px}.metric{font-size:1.8rem;font-weight:800;color:var(--emp)}
+.card{border:1px solid #e4e9f2;border-radius:16px}.feature-card{transition:transform .15s}.feature-card:hover{transform:translateY(-2px)}
+.page-title{font-weight:800}.stat-card{border:0;box-shadow:0 8px 24px rgba(31,52,92,.07)}.stat-number{font-size:1.9rem;font-weight:800;color:var(--emp)}
+.table thead th{white-space:nowrap;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:#61708a;background:#f7f9fc}.table td{vertical-align:middle}.badge{font-weight:600}.form-control,.form-select{border-color:#d8e0ec}.btn{border-radius:9px}.empty{padding:40px;text-align:center;color:#77839a}
+footer{background:#fff}
